@@ -1,0 +1,97 @@
+* {
+	border-box: box-sizing;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: system-ui;
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+	overflow: hidden;
+	height: 100vh;
+	font-size: 1.125rem;
+	line-height: 1.5;
+}
+
+.container {
+	max-width: 600px;
+	width: 100%;
+	margin: 2rem auto 0;
+	background-color: #272d2d;
+	padding: 1rem 2rem 2rem;
+	border-radius: 1rem;
+}
+
+.password {
+	color: #fff;
+}
+
+.password h2 {
+	font-size: 2rem;
+}
+
+.password span {
+	color: #23ce6b;
+}
+
+.message {
+	color: #e6ebe0;
+	margin-block: 0.5rem 1rem;
+}
+
+.generate-password {
+	background-color: #23ce6b;
+	color: #272d2d;
+	font-family: inherit;
+	border: none;
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all 0.3s;
+}
+
+.generate-password:hover {
+	background-color: #4bff97;
+}
+
+hr {
+	margin-block: 2rem;
+}
+
+.passwords-display {
+	display: flex;
+	gap: 1rem;
+}
+
+.passwords-display > div {
+	background-color: #1a1919;
+	padding: 0.5rem 1rem;
+	flex: 1;
+	border-radius: 5px;
+	text-align: center;
+	color: #23ce6b;
+}
+
+.pass-display {
+	position: relative;
+}
+
+.svg-btn {
+	background: none;
+	border: none;
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+
+svg {
+	width: 20px;
+	fill: #23ce6b;
+	cursor: pointer;
+}
+
+svg:hover {
+	scale: 1.1;
+}
